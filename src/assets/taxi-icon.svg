@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+  <defs>
+    <style>
+      .taxi-body { fill: #FFD700; stroke: #000; stroke-width: 2.5; }
+      .taxi-dark { fill: #333; }
+      .taxi-light { fill: #fff; stroke: #000; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- Main taxi body -->
+  <path class="taxi-body" d="M 80 220 L 120 120 L 280 80 L 392 120 L 432 220 Z"/>
+  
+  <!-- Lower body -->
+  <path class="taxi-body" d="M 80 220 L 85 350 Q 85 380 115 380 L 120 220 Z"/>
+  <path class="taxi-body" d="M 432 220 L 427 350 Q 427 380 397 380 L 392 220 Z"/>
+  <rect class="taxi-body" x="120" y="220" width="272" height="160"/>
+  
+  <!-- Front bumper -->
+  <rect class="taxi-dark" x="100" y="370" width="312" height="15"/>
+  
+  <!-- Front windshield -->
+  <polygon class="taxi-light" points="200,140 280,100 280,180 200,190" opacity="0.7"/>
+  
+  <!-- Side windows -->
+  <rect class="taxi-light" x="140" y="190" width="45" height="45" rx="4" opacity="0.6"/>
+  <rect class="taxi-light" x="215" y="190" width="45" height="45" rx="4" opacity="0.6"/>
+  <rect class="taxi-light" x="290" y="190" width="45" height="45" rx="4" opacity="0.6"/>
+  <rect class="taxi-light" x="365" y="190" width="45" height="45" rx="4" opacity="0.6"/>
+  
+  <!-- Door divider -->
+  <line x1="256" y1="190" x2="256" y2="370" stroke="#000" stroke-width="2.5"/>
+  
+  <!-- Front lights -->
+  <circle class="taxi-dark" cx="130" cy="240" r="8"/>
+  <circle class="taxi-dark" cx="382" cy="240" r="8"/>
+  
+  <!-- Back lights -->
+  <rect class="taxi-dark" x="115" y="360" width="12" height="15"/>
+  <rect class="taxi-dark" x="385" y="360" width="12" height="15"/>
+  
+  <!-- Wheels -->
+  <circle class="taxi-dark" cx="160" cy="390" r="28"/>
+  <circle cx="160" cy="390" r="18" fill="#666"/>
+  <circle cx="160" cy="390" r="8" fill="#999"/>
+  
+  <circle class="taxi-dark" cx="352" cy="390" r="28"/>
+  <circle cx="352" cy="390" r="18" fill="#666"/>
+  <circle cx="352" cy="390" r="8" fill="#999"/>
+  
+  <!-- Taxi sign light on roof -->
+  <rect x="220" y="65" width="72" height="20" rx="3" class="taxi-dark"/>
+  <text x="256" y="77" font-size="12" font-weight="bold" text-anchor="middle" fill="#FFD700" font-family="Arial">TAXI</text>
+</svg>
+

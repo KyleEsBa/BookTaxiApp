@@ -1,8 +1,8 @@
-# Taxi Booking Application (Uber-style interface) 🚕
+# Taxi Booking Application (Uber-style interface)
 
 A modern, responsive React-based taxi ride booking application with an Uber-inspired minimalist design. This full-featured application demonstrates professional React development practices, client-side routing, form validation, and clean UI/UX design.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [What This Project Does](#what-this-project-does)
@@ -18,7 +18,7 @@ A modern, responsive React-based taxi ride booking application with an Uber-insp
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Project Overview
+## Project Overview
 
 **Book_A_Taxi** is a complete taxi ride booking service platform built with React. It provides users with an intuitive interface to browse taxi services, learn about the company, and book rides with advanced form validation. The application demonstrates real-world React development patterns including component composition, state management, form handling, and client-side routing.
 
@@ -27,7 +27,7 @@ A modern, responsive React-based taxi ride booking application with an Uber-insp
 - Users interested in company information and services
 - Developers learning React best practices
 
-## 🔧 What This Project Does
+## What This Project Does
 
 The application provides the following functionality:
 
@@ -74,7 +74,7 @@ The application provides the following functionality:
    - Quick links to all sections
    - Responsive mobile navigation
 
-## 🏗️ Design Patterns Used
+## Design Patterns Used
 
 ### 1. **Component-Based Architecture**
 ```
@@ -146,7 +146,7 @@ const handleSubmit = (e) => {
 - CSS custom properties (CSS variables)
 - Responsive design with media queries
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 ### Core Framework
 - **React 19.2.0** - UI library for building interactive components
@@ -165,29 +165,29 @@ const handleSubmit = (e) => {
 - **CSS3** - Modern styling with flexbox, grid, and custom properties
 - **Responsive Design** - Mobile-first approach
 
-## ✨ Features
+## Features
 
 ### UI/UX Features
-- ✅ Clean, minimalist Uber-inspired design
-- ✅ Fully responsive (mobile, tablet, desktop)
-- ✅ Smooth transitions and hover effects
-- ✅ Professional typography
-- ✅ Consistent color scheme
-- ✅ Accessible form inputs
-- ✅ Error message display
-- ✅ Success notifications
+- Clean, minimalist Uber-inspired design
+- Fully responsive (mobile, tablet, desktop)
+- Smooth transitions and hover effects
+- Professional typography
+- Consistent color scheme
+- Accessible form inputs
+- Error message display
+- Success notifications
 
 ### Functional Features
-- ✅ Multi-page navigation
-- ✅ Advanced form validation
-- ✅ Real-time error clearing
-- ✅ Date/time validation (future dates only)
-- ✅ Phone number format validation
-- ✅ Email format validation
-- ✅ Service type selection
-- ✅ Form data persistence in component state
+- Multi-page navigation
+- Advanced form validation
+- Real-time error clearing
+- Date/time validation (future dates only)
+- Phone number format validation
+- Email format validation
+- Service type selection
+- Form data persistence in component state
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BookTaxiProject/
@@ -226,29 +226,29 @@ BookTaxiProject/
 └── README.md                    # This file
 ```
 
-## 🔄 Application Flow
+## Application Flow
 
 ### User Navigation Flow
 
 ```mermaid
 graph TD
-    A["🏠 User Visits Application"] --> B["Navigation Bar Loads"]
+    A["User Visits Application"] --> B["Navigation Bar Loads"]
     B --> C{"User Selects Page"}
     
-    C -->|Home| D["📍 Homepage"]
+    C -->|Home| D["Homepage"]
     D --> D1["View Features"]
     D --> D2["View Statistics"]
     D --> D3["Click Book Ride CTA"]
     
-    C -->|About| E["ℹ️ About Us Page"]
+    C -->|About| E["About Us Page"]
     E --> E1["Read Company Info"]
     E --> E2["View Core Values"]
     
-    C -->|Services| F["🚕 Services Page"]
+    C -->|Services| F["Services Page"]
     F --> F1["Browse Service Types"]
     F --> F2["View Pricing"]
     
-    C -->|Contact| G["📧 Contact Page"]
+    C -->|Contact| G["Contact Page"]
     G --> G1["View Contact Info"]
     G --> G2["Fill Contact Form"]
     G2 --> G3{"Form Valid?"}
@@ -256,7 +256,7 @@ graph TD
     G4 --> G2
     G3 -->|Valid| G5["Show Success"]
     
-    C -->|Book a Ride| H["🎫 Booking Page"]
+    C -->|Book a Ride| H["Booking Page"]
     H --> H1["Fill Booking Form"]
     H1 --> H2{"Validation Check"}
     H2 -->|Invalid| H3["Display Errors"]
@@ -335,7 +335,7 @@ graph TD
     H --> H2["Booking Info"]
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -378,7 +378,7 @@ npm run preview
 
 Preview the production build locally.
 
-## 📖 How to Use
+## How to Use
 
 ### Navigating the Application
 
@@ -421,7 +421,7 @@ Preview the production build locally.
 - Time must be in the future (today's bookings only)
 - Service type selection is required
 
-## 💻 Available Scripts
+## Available Scripts
 
 ```bash
 # Start development server with HMR
@@ -437,7 +437,7 @@ npm run preview
 npm run lint
 ```
 
-## ✅ Form Validation Details
+## Form Validation Details
 
 ### Contact Form Validation Rules
 | Field | Rules | Example |
@@ -459,7 +459,7 @@ npm run lint
 | Time | Required, future time | 14:30 |
 | Service Type | Required selection | Economy, Premium, etc. |
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette (Uber-Inspired)
 - **Primary**: #000000 (Black)
@@ -478,7 +478,7 @@ npm run lint
 - Base unit: 0.5rem (8px)
 - Padding/Margin: 0.5rem, 1rem, 1.5rem, 2rem, 3rem, 4rem
 
-## 🔍 Browser Support
+## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -486,21 +486,21 @@ npm run lint
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
-- ✅ React Hooks (useState) for state management
-- ✅ React Router for SPA navigation
-- ✅ Form handling and validation
-- ✅ Component composition and reusability
-- ✅ CSS styling and responsive design
-- ✅ Event handling and form submission
-- ✅ Conditional rendering
-- ✅ Props usage and data flow
-- ✅ Professional code structure
-- ✅ Git version control basics
+- React Hooks (useState) for state management
+- React Router for SPA navigation
+- Form handling and validation
+- Component composition and reusability
+- CSS styling and responsive design
+- Event handling and form submission
+- Conditional rendering
+- Props usage and data flow
+- Professional code structure
+- Git version control basics
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project. Feel free to:
 - Fork the repository

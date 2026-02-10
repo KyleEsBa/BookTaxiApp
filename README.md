@@ -2,7 +2,7 @@
 
 A modern, responsive React-based taxi ride booking application with an Uber-inspired minimalist design. This full-featured application demonstrates professional React development practices, client-side routing, form validation, and clean UI/UX design.
 
-Deployed on Vercel: [Book_A_Taxi](https://book-taxi-app.vercel.app/)
+Deployed on Vercel: https://book-taxi-app.vercel.app/
 
 ## Table of Contents
 
